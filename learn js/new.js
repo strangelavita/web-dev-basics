@@ -1,3 +1,5 @@
+
+//basic operations 
 function getting_clicked (){
     var username1 = document.getElementById("text1").value ;
     var password1 = document.getElementById("password1").value;
@@ -10,6 +12,8 @@ function getting_clicked (){
     }    
 }
 
+
+//  radio button 
 function getting_clicked2(){
     var rd1_1 = document.getElementById("rd1_1");
     var rd1_2 = document.getElementById("rd1_2");
@@ -26,8 +30,22 @@ function getting_clicked2(){
     
 }
 
+
+// select box or drop down box 
 function clicked3(){
     var dropbox1 = document.getElementById("myselectbox");
     var selectedindex1 = dropbox1.selectedIndex;
     alert(dropbox1.options[selectedindex1].value)
+}
+
+// playing with image with reference  to mouse 
+function mouseonimage(){
+    document.getElementById("img1").src 
+    = "images/cat dog 2.jfif";
+
+}
+
+function mouseoutofimage(){
+    document.getElementById("img1").src 
+    = "images/cat dog 1.jfif"
 }
