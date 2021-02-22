@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation  </title>
+    
+
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+    <script src= "new.js" >   
+    </script>
+    
+</head>
+<body>
+    <h1> creating a form for simple validation </h1>
+
+    <!-- Here if function return true action will be pe67rformed else nothing 
+    will happen -->
+    <form onsubmit= "return validi()" action ="my_new.html">
+        
+        Username:  
+        <label id = "uss1" for =Username>
+            <input id ="un1" type ="text">
+        
+            <br><br>
+        </label>
+        
+        Password: 
+        <label id = "pss1"for="password">
+        
+            <input id="pw1" type = "password">
+        
+        </label>
+        <br><br>
+
+        <!-- THERE IS DIFFERENCE BETWEEN 
+        BUTTON TYPE SUBMIT AND BUTTON 
+    IF SUBMIT IS USED IT WILL REFRESH  OR IN OTHER WORDS DATA WILL BE SUBMITTED SOMEWHERE 
+        THATS WHY WE USE FORM TAG -->
+
+        <button type = "submit">submit </button>
+
+    </form>
+<hr>
+
+<!-- now lets practise regular expression to find a text inside a text -->
+    <h1> creating a form for regular expressions 
+    </h1>
+    <h2> capg2021 you have to include that </h2>
+    <form action ="my_new.html" onsubmit=" return regexp1()">
+        Username:
+        
+            <input id ="un2" type ="text">
+        
+            <br><br>
+        </label>
+        
+        <!-- THERE IS DIFFERENCE BETWEEN 
+        BUTTON TYPE SUBMIT AND BUTTON 
+    IF SUBMIT IS USED IT WILL REFRESH  OR IN OTHER WORDS DATA WILL BE SUBMITTED SOMEWHERE 
+        THATS WHY WE USE FORM TAG -->
+
+        <button type = "submit">submit </button>
+
+        
+        </label>
+        <br><br>
+    </form>
+</body>
