@@ -61,7 +61,7 @@ function regexp1(){
 }
 
 
-// enhancing regular expressions 
+//<<<< enhancing regular expressions>>>>> 
 // giving character set [a,b,c] 
 /* if i write var regx = /[a,b,c]cat/  this will accept acat,bcat,ccat
 or you can write [a-c] this will include a,b,c 
@@ -69,3 +69,41 @@ or you can write [a-c] this will include a,b,c
 
 // excluding a character from a set 
 /* [^a,b,c] now you cant have this value  */
+// ^ alone denotes start of string 
+// $ denotes end of regular expression 
+
+
+// mobile number validation 
+function mobiveri() {
+    var mobno = document.getElementById("mobi").value ;
+    // curly bracket denotes no of times its going to appear 
+
+    var my_regx = /^[6-9][0-9]{9}$/ ;
+
+    if (my_regx.test(mobno)){
+        alert("valid mobile number");
+    }
+
+    else {
+        alert ("invalid mobile number ");
+    }
+
+}
+
+// email validation 
+// we will use round brackets to divide our regular expression 
+function validem (){
+    var em = document.getElementById("ema").value;
+    // can not use . directly 
+    // use of +
+    var regexemail = /^([a-z A-Z 0-9\.-]+)@([a-z A-Z 0-9] +).([a-z]{2-10})$/;
+
+    if (regexemail.test(em)){
+        alert("valid email");
+    }
+
+    else {
+        alert ("invalid email ")
+    }
+
+}

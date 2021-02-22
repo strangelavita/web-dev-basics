@@ -50,12 +50,13 @@
     </h1>
     <h2> capg2021 you have to include that </h2>
     <form action ="my_new.html" onsubmit=" return regexp1()">
+        
         Username:
         
             <input id ="un2" type ="text">
         
             <br><br>
-        </label>
+        
         
         <!-- THERE IS DIFFERENCE BETWEEN 
         BUTTON TYPE SUBMIT AND BUTTON 
@@ -63,9 +64,32 @@
         THATS WHY WE USE FORM TAG -->
 
         <button type = "submit">submit </button>
-
-        
-        </label>
         <br><br>
+    </form>
+
+
+
+    <form onsubmit ="mobiveri()">
+        <h1> mobile no verification (India )
+        </h1>
+
+        Mobile no.
+        <input id ="mobi" type = "text">
+        
+        <br><br>
+        <button type = "submit">submit </button>
+    </form>
+
+    <br><hr>
+
+    <!-- email validation -->
+
+
+    <form onsubmit="validem()">
+        <h1>email verification</h1>
+        email:
+        <input id ="ema" type="text">
+        <br><br>
+        <button type="submit">submit </button>
     </form>
 </body>
