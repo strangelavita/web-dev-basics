@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC Survey Form </title>
+    
+
+    <link href="new.css" type="text/css" rel="stylesheet">
+
+    
+</head>
+
+<body align = "center" class="classs1">
+    <div >
+    <h1 id = "title">Survey Form</h1>
+    <p id = "description"> This form is made only for my project on FreeCodeCamp 
+        .... For now i have not added styling to this web page its just a skeleton structure 
+    </p>
+    
+    <form id = "survey-form" action="#">
+    <label id ="name-label">
+        Name :<br>
+        <input id = "name" required type = "text" placeholder="enter your name">
+        <br><br>
+    </label>
+
+    <label id ="email-label">
+        Email:<br>
+        <input id ="email" required type="email" placeholder="enter your email">
+        <br><br>
+    </label>
+
+    <label id="number-label">
+        Age:<br>
+        <input id ="number" type="number" placeholder="enter your age" min="18" max="100">
+        <br><br>
+    </label>
+    
+    what are you good at?<br>
+    <select id ="dropdown">
+        <option value = "front-end">Front end developement</option>
+        <option value ="back-end">Back end developement</option>
+        <option value = "full-stack">Full stack developement</option>
+        
+    </select>
+    <br><br>
+
+    Are you a cat person or a dog person ?<br>
+    <input type="radio" name ="juan" value ="cat">Cat  <br>
+    <input type="radio" name ="juan" value ="dog">Dog  <br>
+    <input type="radio" name ="juan" value ="juan">Juan <br>
+    
+<br>
+    <table align = "center">
+    <tr><td>What languages are you familiar with ?</td></tr>
+    
+    <tr><td><input type="checkbox" value ="python">Python </td></tr> 
+    <tr><td><input type="checkbox" value ="html">HTML</html> </td></tr> 
+    <tr><td><input type="checkbox" value ="css">CSS </td></tr> 
+    <tr><td><input type="checkbox" value ="javascript">Javascript  </td></tr> 
+    <tr><td><input type="checkbox" value ="others">Others </td></tr> 
+    
+    </table>
+<br><br>
+    Write about the other languages with which you are comfortable with <br>
+    <textarea>  </textarea>
+
+
+
+
+
+    <br><br>
+
+    <button id ="submit" > submit </button>
+
+
+    </form>
+    
+    </div>
+</body>
+</html>
