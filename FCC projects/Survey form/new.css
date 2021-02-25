@@ -1,4 +1,21 @@
-.classs1{
+body{
         background-color: black;
-        color: blanchedalmond;
+        color : white;
+}
+/*
+h1{
+        font-family: Arial, Helvetica, sans-serif;
+}
+.box1{
+        width: 40%;
+        text-align: center;
+        margin: 30%;
+        height :25px;
+        position: absolute;
+}
+.box2{
+        width: 40%;
+        text-align: center;
+        margin: 30%;
+        position: absolute;
 }
